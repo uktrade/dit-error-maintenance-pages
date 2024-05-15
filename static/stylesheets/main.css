@@ -7,3 +7,87 @@ body {
 #menu .list-header::after {
 	box-sizing: content-box;
 }
+.footer_logo {
+	width:100px;
+}
+.maintenance_header {
+	-webkit-font-smoothing: auto;
+	color: #222;
+	font-family:"Noto SemiBold";
+	font-size: 44px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 60px;
+}
+.maintenance_text {
+	-webkit-font-smoothing: auto;
+	color:#222;
+	font-family:"Noto Regular" !important;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+.dbt-link {
+	align-self: flex-end;
+	padding-left:50px;
+	padding-bottom:15px;
+}
+
+.dbt-link-text {
+	color:#FFF;
+	font-family: "Noto Regular";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px; /* 166.667% */
+	text-decoration-line: underline;
+}
+
+.footer-blue {
+	height:100px;
+	background-color: #160d37;
+	display: flex;
+
+}
+.footer-logo {
+	float:left;
+	align-self: flex-end;
+	padding-left:50px;
+	height:50px;
+	align-items: bottom;
+}
+.footer-img {
+	height:30px;
+}
+
+.footer-white {
+	padding-top:20px;
+	padding-bottom:20px;
+	align-items:flex;
+	height:60px;
+	background-color: #fff;
+}
+.footer-width {
+	align-items:flex;
+}
+@font-face {
+	font-family: 'Noto Regular';
+	src: url('/static/fonts/NotoSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+  @font-face {
+	font-family: 'Noto SemiBold';
+	src: url('/static/fonts/NotoSans-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: bold;
+  }
+
+.copyright {
+	float:right;
+	padding-right: 50px;
+	background-color: #fff;
+	color:#222;
+}
