@@ -64,12 +64,14 @@ body {
 .footer-white {
 	padding-top:20px;
 	padding-bottom:20px;
-	align-items:flex;
 	height:60px;
 	background-color: #fff;
 }
 .footer-width {
 	align-items:flex;
+	max-width: 1200;
+	margin-right: auto;
+	margin-left:auto;
 }
 @font-face {
 	font-family: 'Noto Regular';
@@ -87,6 +89,7 @@ body {
 
 .copyright {
 	float:right;
+	font-family: "Noto Regular";
 	padding-right: 50px;
 	background-color: #fff;
 	color:#222;
