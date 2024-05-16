@@ -6,17 +6,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-    
+    <script src="static/javascript/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="static/stylesheets/main.css">
-
     <!--[if IE 8]><link href="stylesheets/ie8.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
   </head>
-  <body class=''>
+  <body>
     <header id="header" class="static-header-footer">
         <a id="skip-link" href="#content" class="verbose">Skip to main content</a>
         <div id="header-bar">
-            <div class="container top-bar">
-            </div>
             <div class="container">
                 <a class="dit-logo" href="https://great.gov.uk/">
                 <img src="static/images/DBT_White.svg" alt="Home">
@@ -27,35 +24,28 @@
 
     <main role="main">
       <div class="main" id="content">
-        <section>
           <div class="outer-container soft--top push--top min-height">
-            <div class="soft--bottom push--bottom">
-              <div class="col-12 soft--bottom">
-                <h1 class="maintenance_header">Great.gov.uk is under maintenance</h1>
-                <ul class="list-regular soft-half--ends">
-                  <li class="flush--top maintenance_text">We are carrying out planned maintenance.  Try again later.</li>
-                </ul>
-              </div>
-            </div>
+                <h1 class="heading">Great.gov.uk is under maintenance</h1>
+                  <p class="text">We are carrying out planned maintenance.  Try again later.</p>
           </div>
-        </section>
       </div>
     </main>
 
-    <footer id="footer" class="static-header-footer">
-        <div class="footer-blue">
-            <a class="dbt-link" href="https://www.gov.uk/government/organisations/department-for-business-and-trade"> <span class="dbt-link-text">Department for Business and Trade on GOV.UK </span></a>
+    <footer id="footer">
+        <div class="footer-blue ">
+          <div class="footer-outer-container footer-flex">
+            <a class="dbt-link" href="https://www.gov.uk/government/organisations/department-for-business-and-trade"> 
+              <span class="dbt-link-text">Department for Business and Trade on GOV.UK </span></a>
         </div>
+      </div>
         <div class="footer-white">
-            <span>
-                <div class="footer-logo">
-                    <a class="dit-logo " href="https://great.gov.uk/">
-                    <img class = "footer-img" src="static/images/icons/DBT_Red_DIGI.svg" alt="Home">
-                    </a>
-                </div>
-            <p class="copyright">© Crown copyright 2024. All rights reserved.</p>
-            </span>
-        </div>
+          <div class="footer-outer-container footer-row">
+              <a class="dit-logo " href="https://great.gov.uk/">
+                <img class = "footer-img" src="static/images/icons/DBT_Red_DIGI.svg" alt="Home">
+              </a>
+              <p class="copyright">© Crown copyright 2024. All rights reserved.</p>
+          </div>
+      </div>
     </div>
     </footer>
   </body>
